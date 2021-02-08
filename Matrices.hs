@@ -1,4 +1,4 @@
-module Matrices2 where
+module Matrices where
 import RandomGenerator
 import Puntos
 import Graphics.UI.GLUT

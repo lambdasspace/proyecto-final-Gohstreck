@@ -1,6 +1,6 @@
 module Main where
 import Graphics.UI.GLUT
-import Matrices2
+import Matrices
 import Puntos
 
 {- Falta:
@@ -130,7 +130,7 @@ reshape s@(Size x y) = do
   loadIdentity
   lookAt (Vertex3 5 10 15) (Vertex3 5 1 5) (Vector3 0 1 (0 ::GLdouble))
   postRedisplay Nothing
-  swapBuffers
+
 
 {- | Aquí no estoy seguro de qué signifique Position.
 Los char simbolizan las teclas que se pulsen.
